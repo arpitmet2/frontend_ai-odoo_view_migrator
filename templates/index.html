@@ -1,0 +1,192 @@
+<!DOCTYPE html><html lang="en" class="scroll-smooth" style=""><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Geist:wght@400;500&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">try{
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-background": "#0b1c30",
+                    "inverse-primary": "#b4c5ff",
+                    "on-surface": "#0b1c30",
+                    "surface-variant": "#d3e4fe",
+                    "on-tertiary-container": "#eef0ff",
+                    "surface-container-high": "#dce9ff",
+                    "on-error-container": "#93000a",
+                    "on-primary-container": "#eeefff",
+                    "secondary": "#4648d4",
+                    "on-primary-fixed-variant": "#003ea8",
+                    "on-secondary-fixed": "#07006c",
+                    "error-container": "#ffdad6",
+                    "surface-container": "#e5eeff",
+                    "surface-container-highest": "#d3e4fe",
+                    "primary-container": "#2563eb",
+                    "on-secondary": "#ffffff",
+                    "background": "#f8f9ff",
+                    "primary-fixed": "#dbe1ff",
+                    "primary": "#004ac6",
+                    "on-error": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed": "#dae2fd",
+                    "tertiary": "#4d556b",
+                    "surface-tint": "#0053db",
+                    "outline-variant": "#c3c6d7",
+                    "inverse-surface": "#213145",
+                    "secondary-container": "#6063ee",
+                    "on-tertiary-fixed": "#131b2e",
+                    "on-tertiary-fixed-variant": "#3f465c",
+                    "surface-container-lowest": "#ffffff",
+                    "outline": "#737686",
+                    "surface": "#f8f9ff",
+                    "on-secondary-fixed-variant": "#2f2ebe",
+                    "surface-container-low": "#eff4ff",
+                    "on-secondary-container": "#fffbff",
+                    "secondary-fixed-dim": "#c0c1ff",
+                    "secondary-fixed": "#e1e0ff",
+                    "tertiary-fixed-dim": "#bec6e0",
+                    "error": "#ba1a1a",
+                    "tertiary-container": "#656d84",
+                    "on-primary": "#ffffff",
+                    "on-surface-variant": "#434655",
+                    "surface-bright": "#f8f9ff",
+                    "surface-dim": "#cbdbf5",
+                    "on-primary-fixed": "#00174b",
+                    "inverse-on-surface": "#eaf1ff",
+                    "primary-fixed-dim": "#b4c5ff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "base": "4px",
+                    "xl": "80px",
+                    "md": "24px",
+                    "sm": "16px",
+                    "lg": "48px",
+                    "gutter": "24px",
+                    "container-max": "1280px",
+                    "xs": "8px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Inter"],
+                    "display-lg-mobile": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "label-sm": ["Geist"],
+                    "body-md": ["Inter"],
+                    "display-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-md": ["32px", {"lineHeight": "1.25", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "display-lg-mobile": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+                    "label-sm": ["14px", {"lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "500"}],
+                    "body-md": ["16px", {"lineHeight": "1.5", "letterSpacing": "0", "fontWeight": "400"}],
+                    "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.04em", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    }catch(_e){}</script><meta charset="utf-8"></head><body class="bg-background text-on-background font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface-lowest/70 backdrop-blur-xl border-b border-outline-variant/30 shadow-sm transition-all duration-300">
+<div class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-xs">
+<span class="material-symbols-outlined text-primary font-bold">terminal</span>
+
+</div>
+<a href="https://ai-odoo-view-migrator.streamlit.app/" target="_blank" rel="noopener noreferrer">
+    <button class="bg-primary text-on-primary font-label-sm text-label-sm px-md py-3 rounded-full hover:bg-primary/90 active:scale-95 transition-all shadow-md">
+        Get Started
+    </button>
+</a>
+</div>
+</header>
+<main class="mt-[72px]">
+<!-- Hero Section -->
+<section class="relative px-gutter py-xl flex flex-col items-center text-center hero-gradient overflow-hidden">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] opacity-20 pointer-events-none">
+
+</div>
+<div class="relative z-10 max-w-lg mx-auto">
+<div class="inline-flex items-center gap-2 bg-surface-container-high px-3 py-1 rounded-full mb-md">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase">v19 Ready</span>
+</div>
+<h1 class="font-display-lg-mobile text-display-lg-mobile mb-sm">
+                    Upgrade Your Odoo Views with <span class="text-primary">Precision</span>.
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-lg">
+                    Seamlessly migrate your custom Odoo views to the latest version. Faster, safer, and 100% bug-free.
+                </p>
+<div class="flex flex-col gap-sm w-full sm:flex-row sm:justify-center">
+<a href="https://ai-odoo-view-migrator.streamlit.app/"
+   target="_blank"
+   rel="noopener noreferrer">
+    <button class="bg-primary text-on-primary font-label-sm text-label-sm px-xl py-4 rounded-full shadow-lg active:scale-95 transition-transform">
+        Start Migration
+    </button>
+</a>
+
+</div>
+</div>
+<!-- Abstract Visual -->
+<div class="mt-xl w-full max-w-2xl mx-auto rounded-xl glass-card p-xs overflow-hidden aspect-video relative group">
+<img class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-700" data-alt="A clean, minimalist high-tech UI dashboard visualization showcasing a data migration process. The scene uses a light mode aesthetic with soft whites and grays, featuring electric blue lines flowing between modular interface blocks representing code blocks. The lighting is diffused and professional, suggesting a highly organized and reliable software service environment with a premium SaaS aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAR_z0lYfuL1QEG0oXQt7ebviklSiYmeg61M2fZuCIrPdeV820z48szVol_Isx6kTfrC5SXlPTKMLlK5dAch14rGlH41HmlDyACi90YoJUI4BVHzQ9EH-uPVHW-jBZH-_O9SiW8OP2jFzfZAZxnmAmjM7vQ5lel5af5D9yUaRxGrS9LLiw8JnjlPhXjUSjmzquS4FqgdEXrsNPtAuBskT5aOj_Wazk3XeWW62j91ruqEd5ybr6rPxloJE248CNQbzmCaGP4_QAd-7tU">
+<div class="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent"></div>
+</div>
+</section>
+<!-- Features (3-card grid) -->
+<section class="px-gutter py-xl bg-surface-container-lowest"><div class="max-w-container-max mx-auto"><div class="text-center mb-lg"><h2 class="font-headline-md text-headline-md mb-xs">Features</h2><p class="text-on-surface-variant">The tools you need for a frictionless upgrade.</p></div><div class="grid grid-cols-1 md:grid-cols-3 gap-md"><div class="glass-card p-lg rounded-xl flex flex-col gap-sm group hover:border-primary/50 transition-colors"><div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:scale-110 transition-transform"><span class="material-symbols-outlined">smart_toy</span></div><h3 class="font-headline-md text-xl font-bold">🤖 AI-Powered Migration</h3><p class="text-on-surface-variant">Automatically converts legacy Odoo XML views to Odoo 19 syntax using AI.</p></div><div class="glass-card p-lg rounded-xl flex flex-col gap-sm group hover:border-primary/50 transition-colors"><div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:scale-110 transition-transform"><span class="material-symbols-outlined">bolt</span></div><h3 class="font-headline-md text-xl font-bold">⚡ Instant Conversion</h3><p class="text-on-surface-variant">Paste your XML and receive the migrated version within seconds.</p></div><div class="glass-card p-lg rounded-xl flex flex-col gap-sm group hover:border-primary/50 transition-colors"><div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:scale-110 transition-transform"><span class="material-symbols-outlined">sync_alt</span></div><h3 class="font-headline-md text-xl font-bold">🔄 Smart Attribute Conversion</h3><p class="text-on-surface-variant">Converts deprecated XML attributes including: attrs, states, readonly, required, invisible.</p></div><div class="glass-card p-lg rounded-xl flex flex-col gap-sm group hover:border-primary/50 transition-colors"><div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:scale-110 transition-transform"><span class="material-symbols-outlined">verified</span></div><h3 class="font-headline-md text-xl font-bold">✅ Odoo 19 Compatibility</h3><p class="text-on-surface-variant">Produces XML compatible with Odoo 19 best practices.</p></div><div class="glass-card p-lg rounded-xl flex flex-col gap-sm group hover:border-primary/50 transition-colors"><div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:scale-110 transition-transform"><span class="material-symbols-outlined">shield</span></div><h3 class="font-headline-md text-xl font-bold">🛡️ Business Logic Preservation</h3><p class="text-on-surface-variant">Maintains the original functionality while modernizing the syntax.</p></div><div class="glass-card p-lg rounded-xl flex flex-col gap-sm group hover:border-primary/50 transition-colors"><div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:scale-110 transition-transform"><span class="material-symbols-outlined">content_copy</span></div><h3 class="font-headline-md text-xl font-bold">📄 Copy &amp; Export</h3><p class="text-on-surface-variant">Copy migrated XML directly to your clipboard or export as a file.</p></div></div></div></section>
+<!-- Why Choose Us -->
+<section class="px-gutter py-xl bg-background overflow-hidden"><div class="max-w-container-max mx-auto"><div class="text-center mb-lg"><h2 class="font-headline-md text-headline-md mb-xs">How It Works</h2><p class="text-on-surface-variant">Four simple steps to modernize your Odoo views.</p></div><div class="grid grid-cols-1 md:grid-cols-4 gap-md"><div class="flex flex-col items-center text-center gap-sm"><div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold">1</div><p class="font-bold">Paste your legacy Odoo XML.</p></div><div class="flex flex-col items-center text-center gap-sm"><div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold">2</div><p class="font-bold">AI analyzes the XML structure.</p></div><div class="flex flex-col items-center text-center gap-sm"><div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold">3</div><p class="font-bold">Deprecated syntax is converted.</p></div><div class="flex flex-col items-center text-center gap-sm"><div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold">4</div><p class="font-bold">Receive Odoo 19 compatible XML with explanations.</p></div></div></div></section>
+<!-- Stats -->
+
+<!-- FAQ -->
+
+<!-- Final CTA -->
+
+</main>
+<!-- Footer -->
+<footer class="w-full py-xl bg-on-background dark:bg-surface-container-lowest border-t border-outline/10 mt-xl">
+
+<div class="max-w-container-max mx-auto px-gutter pt-md border-outline/10 text-outline-variant text-center md:text-left">
+<p class="font-body-md text-body-md">© 2026 Arpit Patel</p>
+</div>
+</footer>
+<script>
+        // Micro-interaction for the TopAppBar
+        let lastScroll = 0;
+        const header = document.querySelector('header');
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll <= 0) {
+                header.classList.remove('shadow-md');
+                return;
+            }
+            
+            if (currentScroll > lastScroll && currentScroll > 80) {
+                // Scrolling down
+                header.style.transform = 'translateY(-100%)';
+            } else {
+                // Scrolling up
+                header.style.transform = 'translateY(0)';
+                header.classList.add('shadow-md');
+            }
+            lastScroll = currentScroll;
+        });
+
+        // Simple button active state visual
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const ripple = document.createElement('span');
+                ripple.classList.add('ripple');
+                this.appendChild(ripple);
+                setTimeout(() => ripple.remove(), 600);
+            });
+        });
+    </script>
+
+</body></html>
